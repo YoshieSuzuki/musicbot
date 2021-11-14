@@ -1,1 +1,1 @@
-worker: python run.py
+worker: sudo ./run.py
