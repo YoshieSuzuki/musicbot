@@ -1,1 +1,1 @@
-worker: sudo ./run.sh
+worker: ./run.sh

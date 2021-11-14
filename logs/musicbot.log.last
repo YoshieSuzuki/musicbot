@@ -1,32 +1,10 @@
-[26.206970215] 2021-11-14 13:31:35,390 - INFO - launcher: Starting sanity checks
-[26.456117630] 2021-11-14 13:31:35,390 - INFO - launcher: Checking for Python 3.5+
-[26.569128036] 2021-11-14 13:31:35,390 - INFO - launcher: Checking console encoding
-[26.764154434] 2021-11-14 13:31:35,390 - INFO - launcher: Ensuring we're in the right environment
-[208.055019379] 2021-11-14 13:31:35,571 - INFO - launcher: Required checks passed.
-[208.225011826] 2021-11-14 13:31:35,572 - INFO - launcher: Optional checks passed.
-[208.328008652] 2021-11-14 13:31:35,572 - INFO - launcher: Moving old musicbot log
+[53.281784058] 2021-11-14 14:09:14,842 - INFO - launcher: Starting sanity checks
+[53.527832031] 2021-11-14 14:09:14,842 - INFO - launcher: Checking for Python 3.5+
+[53.630828857] 2021-11-14 14:09:14,842 - INFO - launcher: Checking console encoding
+[53.708791733] 2021-11-14 14:09:14,842 - INFO - launcher: Ensuring we're in the right environment
+[830.575704575] 2021-11-14 14:09:15,619 - INFO - launcher: Required checks passed.
+[830.854892731] 2021-11-14 14:09:15,619 - INFO - launcher: Optional checks passed.
+[831.003904343] 2021-11-14 14:09:15,619 - INFO - launcher: Moving old musicbot log
 
 ######################### PRE-RUN SANITY CHECKS PASSED #########################
 
-[1.1823980808258057] 2021-11-14 13:31:36,546 - WARNING - musicbot.config | In config.py::MainThread(4518260224), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
-[1.1829280853271484] 2021-11-14 13:31:36,546 - INFO - musicbot.config | In config.py::MainThread(4518260224), line 132 in run_checks: Using i18n: config/i18n/en.json
-[1.1850271224975586] 2021-11-14 13:31:36,548 - DEBUG - musicbot.bot | In bot.py::MainThread(4518260224), line 225 in _setup_logging: Set logging level to INFO
-[1.1871669292449951] 2021-11-14 13:31:36,550 - DEBUG - musicbot.json | In json.py::MainThread(4518260224), line 8 in __init__: Init JSON obj with config/i18n/en.json
-[1.2435050010681152] 2021-11-14 13:31:36,607 - INFO - musicbot.bot | In bot.py::MainThread(4518260224), line 90 in __init__: Starting MusicBot 4f3249e
-[1.2437610626220703] 2021-11-14 13:31:36,607 - INFO - musicbot.bot | In bot.py::MainThread(4518260224), line 96 in __init__: Loaded autoplaylist with 2527 entries
-[4.1005530357360840] 2021-11-14 13:31:39,464 - DEBUG - musicbot.bot | In bot.py::MainThread(4518260224), line 951 in on_ready: Connection established, ready to go.
-[4.1007990837097168] 2021-11-14 13:31:39,464 - DEBUG - musicbot.bot | In bot.py::MainThread(4518260224), line 342 in _cache_app_info: Caching app info
-[4.3243830204010010] 2021-11-14 13:31:39,688 - DEBUG - musicbot.bot | In bot.py::MainThread(4518260224), line 773 in _scheck_ensure_env: Ensuring data folders exist
-[4.3310110569000244] 2021-11-14 13:31:39,694 - DEBUG - musicbot.bot | In bot.py::MainThread(4518260224), line 789 in _scheck_server_permissions: Checking server permissions
-[4.3314418792724609] 2021-11-14 13:31:39,695 - DEBUG - musicbot.bot | In bot.py::MainThread(4518260224), line 793 in _scheck_autoplaylist: Auditing autoplaylist
-[4.3316111564636230] 2021-11-14 13:31:39,695 - DEBUG - musicbot.bot | In bot.py::MainThread(4518260224), line 797 in _scheck_configs: Validating config
-[4.3317601680755615] 2021-11-14 13:31:39,695 - DEBUG - musicbot.config | In config.py::MainThread(4518260224), line 236 in async_validate: Validating options...
-[4.3318841457366943] 2021-11-14 13:31:39,695 - DEBUG - musicbot.bot | In bot.py::MainThread(4518260224), line 800 in _scheck_configs: Validating permissions config
-[4.3319790363311768] 2021-11-14 13:31:39,695 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4518260224), line 94 in async_validate: Validating permissions...
-[4.3320882320404053] 2021-11-14 13:31:39,695 - INFO - musicbot.bot | In bot.py::MainThread(4518260224), line 968 in on_ready: Connected: 909263827340779552/MusicBot_test#2817
-[4.3323919773101807] 2021-11-14 13:31:39,696 - WARNING - musicbot.bot | In bot.py::MainThread(4518260224), line 996 in on_ready: Owner could not be found on any guild (id: 726637754771046400)
-
-[4.3326451778411865] 2021-11-14 13:31:39,696 - INFO - musicbot.bot | In bot.py::MainThread(4518260224), line 998 in on_ready: Guild List:
-[4.3328671455383301] 2021-11-14 13:31:39,696 - INFO - musicbot.bot | In bot.py::MainThread(4518260224), line 1001 in on_ready:  - test server
-[4.3330900669097900] 2021-11-14 13:31:39,696 - INFO - musicbot.bot | In bot.py::MainThread(4518260224), line 1039 in on_ready: Not bound to any text channels
-[4.3333311080932617] 2021-11-14 13:31:39,697 - INFO - musicbot.bot | In bot.py::MainThread(4518260224), line 1065 in on_ready: Not autojoining any voice channels
